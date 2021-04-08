@@ -6,5 +6,20 @@
     "sha256_cert_fingerprints":
     ["D7:52:77:AA:4B:32:C2:8B:19:3D:74:81:53:00:7E:00:DD:AF:09:4D:A8:01:2F:48:B3:2B:95:7B:AA:89:55:78"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://mamtand.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.amazon.in.payments.merchant.app.android",
+    "sha256_cert_fingerprints":
+    ["D7:52:77:AA:4B:32:C2:8B:19:3D:74:81:53:00:7E:00:DD:AF:09:4D:A8:01:2F:48:B3:2B:95:7B:AA:89:55:78"]
+  }
 }]
-
